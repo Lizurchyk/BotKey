@@ -16,10 +16,9 @@ load_dotenv()
 # ============================================
 # ПЕРЕМЕННЫЕ ОКРУЖЕНИЯ
 # ============================================
-#TOKEN = os.getenv('BOT_TOKEN')
-#ADMIN_ID = int(os.getenv('ADMIN_ID'))
-TOKEN = "6511880840:AAEYYCjAVKfCIlBA3XLskniqNMSmAWoMvXA"
-ADMIN_ID = 1006511880840  # замени на свой ID
+TOKEN = os.getenv('BOT_TOKEN')
+ADMIN_ID = int(os.getenv('ADMIN_ID'))
+
 if not TOKEN or not ADMIN_ID:
     raise ValueError("❌ BOT_TOKEN и ADMIN_ID должны быть в .env файле!")
 
